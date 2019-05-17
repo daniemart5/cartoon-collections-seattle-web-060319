@@ -7,10 +7,9 @@ def roll_call_dwarves(dwarves)
   end
 end
 
-def summon_captain_planet(array)
-    array.map! do |element| 
-      element + "!"
-    puts array
+def summon_captain_planet(planteer_calls)
+    planteer_calls.map! do |call| 
+      call + "!"
   end
 end
 
