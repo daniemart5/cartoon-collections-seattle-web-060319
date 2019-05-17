@@ -8,8 +8,8 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(array)
-    array.map! do |call| 
-      call.capitalize
+    array.map! do |element| 
+      element.capitalize
     puts array
   end
 end
